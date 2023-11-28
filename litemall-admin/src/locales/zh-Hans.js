@@ -6,7 +6,7 @@ export default {
   lang: '中文',
   app: {
     menu: {
-      dashboard: '首页',
+      dashboard: 'yaoji.ai平台首页',
       user: '用户管理',
       user_user: '会员管理',
       user_address: '收货地址',
@@ -14,44 +14,44 @@ export default {
       user_footprint: '会员足迹',
       user_history: '搜索历史',
       user_feedback: '意见反馈',
-      mall: '商场管理',
-      mall_region: '行政区域',
-      mall_brand: '品牌制造商',
-      mall_category: '商品类目',
+      mall: '运营渠道管理',
+      mall_region: '非遗坐落区域',
+      mall_brand: '品牌制造合作商',
+      mall_category: '设计作品类目',
       mall_order: '订单管理',
       mall_aftersale: '售后管理',
-      mall_issue: '通用问题',
-      mall_keyword: '关键词',
-      goods: '商品管理',
-      goods_list: '商品列表',
-      goods_create: '商品上架',
+      mall_issue: '常见问题回答',
+      mall_keyword: '常见搜索词',
+      goods: '商城管理',
+      goods_list: '设计作品列表',
+      goods_create: '上架作品列表',
       goods_edit: '商品编辑',
-      goods_comment: '商品评论',
+      goods_comment: '作品评论',
       promotion: '推广管理',
       promotion_ad: '广告管理',
       promotion_coupon: '优惠券管理',
       promotion_coupon_detail: '优惠券详情',
-      promotion_topic: '专题管理',
+      promotion_topic: '专题文化宣传活动',
       promotion_topic_create: '专题创建',
       promotion_topic_edit: '专题编辑',
-      promotion_groupon_rule: '团购规则',
-      promotion_groupon_activity: '团购活动',
+      promotion_groupon_rule: '星级非遗传承人',
+      promotion_groupon_activity: '最新报道',
       sys: '系统管理',
       sys_admin: '管理员',
       sys_notice: '通知管理',
       sys_log: '操作日志',
       sys_role: '角色管理',
-      sys_os: '对象存储',
+      sys_os: '组件合作商',
       config: '配置管理',
-      config_mall: '商场配置',
-      config_express: '运费配置',
+      config_mall: '商城配置',
+      config_express: '邮寄配置',
       config_order: '订单配置',
       config_wx: '小程序配置',
       stat: '统计报表',
       stat_user: '用户统计',
       stat_order: '订单统计',
       stat_goods: '商品统计',
-      external_link: '外链',
+      external_link: '系统模块外链',
       external_link_tencent_cos: '腾讯云存储',
       external_link_tencent_sms: '腾讯云短信',
       external_link_weixin_pay: '微信支付',
@@ -116,8 +116,8 @@ export default {
   dashboard: {
     section: {
       user_total: '用户数量',
-      goods_total: '商品数量',
-      product_total: '货品数量',
+      goods_total: '设计作品数量',
+      product_total: '上架作品数量',
       order_total: '订单数量'
     }
   },
@@ -128,7 +128,7 @@ export default {
       avatar: '用户头像',
       mobile: '手机号码',
       gender: '性别',
-      birthday: '生日',
+      birthday: '喜欢非遗类别',
       user_level: '用户等级',
       status: '状态',
       actions: '操作'
@@ -172,7 +172,7 @@ export default {
     table: {
       id: '收藏ID',
       user_id: '用户ID',
-      value_id: '商品ID',
+      value_id: '设计作品ID',
       add_time: '添加时间'
     },
     placeholder: {
@@ -184,7 +184,7 @@ export default {
     table: {
       id: '足迹ID',
       user_id: '用户ID',
-      goods_id: '商品ID',
+      goods_id: '设计作品ID',
       add_time: '添加时间'
     },
     placeholder: {
@@ -196,7 +196,7 @@ export default {
     table: {
       id: '搜索ID',
       user_id: '用户ID',
-      keyword: '关键字',
+      keyword: '关键类别',
       add_time: '添加时间'
     },
     placeholder: {
@@ -773,14 +773,14 @@ export default {
   },
   promotion_groupon_rule: {
     table: {
-      id: '团购规则ID',
-      goods_id: '商品ID',
-      goods_name: '名称',
-      pic_url: '图片',
-      discount: '团购优惠',
-      discount_member: '团购要求',
+      id: '用户ID',
+      goods_id: '代表作ID',
+      goods_name: '非遗传承人姓名',
+      pic_url: '代表作图片',
+      discount: '完成作品总数',
+      discount_member: '设计中作品数量',
       status: '状态',
-      expire_time: '结束时间',
+      expire_time: '最近登陆时间',
       actions: '操作'
     },
     form: {
